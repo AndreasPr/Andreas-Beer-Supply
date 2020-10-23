@@ -31,13 +31,12 @@ public class BeerDto {
     @Positive
     @NotNull
     private Long upc;
-
-
-    private Integer quantityOnHand;
-
+    
     @Positive
     @NotNull
     private BigDecimal price;
+
+    private Integer quantityOnHand;
 
     @Null
     private UUID id;
