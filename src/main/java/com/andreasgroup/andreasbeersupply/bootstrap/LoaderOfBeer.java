@@ -30,7 +30,7 @@ public class LoaderOfBeer implements CommandLineRunner {
             beerRepository.save(Beer
                     .builder()
                     .beerName("Alpha")
-                    .beerStyle("Beer Style1")
+                    .beerStyle("GOSE")
                     .quantityToBeerProvider(200)
                     .upc(456011111111L)
                     .price(new BigDecimal("20.32"))
@@ -40,7 +40,7 @@ public class LoaderOfBeer implements CommandLineRunner {
             beerRepository.save(Beer
                     .builder()
                     .beerName("Heineken")
-                    .beerStyle("Beer Style2")
+                    .beerStyle("SAISON")
                     .quantityToBeerProvider(300)
                     .upc(479311111111L)
                     .price(new BigDecimal("30.32"))
