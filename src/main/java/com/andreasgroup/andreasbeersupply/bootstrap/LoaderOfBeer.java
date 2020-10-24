@@ -29,7 +29,7 @@ public class LoaderOfBeer implements CommandLineRunner {
 
             beerRepository.save(Beer
                     .builder()
-                    .beerName("Alpha")
+                    .beerName("Alpha Beer")
                     .beerStyle("GOSE")
                     .quantityToBeerProvider(200)
                     .upc(456011111111L)
