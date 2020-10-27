@@ -14,7 +14,7 @@ import java.util.UUID;
  * Created on 26/Oct/2020 to andreas-beer-supply
  */
 @AllArgsConstructor
-@Service
+@Service("beerService")
 public class BeerServiceImpl implements BeerService {
 
     private final BeerRepository beerRepository;
