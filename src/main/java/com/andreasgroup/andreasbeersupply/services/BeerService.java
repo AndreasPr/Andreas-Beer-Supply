@@ -1,6 +1,9 @@
 package com.andreasgroup.andreasbeersupply.services;
 
 import com.andreasgroup.andreasbeersupply.web.model.BeerDto;
+import com.andreasgroup.andreasbeersupply.web.model.BeerPagedList;
+import com.andreasgroup.andreasbeersupply.web.model.BeerStyleEnum;
+import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;
 
@@ -15,4 +18,5 @@ public interface BeerService {
 
     BeerDto updateBeer(UUID beerId, BeerDto beerDto);
 
+    BeerPagedList listBeers(String beerName, BeerStyleEnum beerStyle, PageRequest pageRequest);
 }

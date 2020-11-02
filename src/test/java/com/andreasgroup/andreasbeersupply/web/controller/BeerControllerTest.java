@@ -84,7 +84,7 @@ class BeerControllerTest {
                 .beerName("Beer Test")
                 .beerStyle(BeerStyleEnum.ALE)
                 .price(new BigDecimal("12.56"))
-                .upc(LoaderOfBeer.UPC_1)
+                .upc(LoaderOfBeer.BEER_UPC_1)
                 .build();
     }
 }
