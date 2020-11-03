@@ -4,7 +4,6 @@ import com.andreasgroup.andreasbeersupply.domain.Beer;
 import com.andreasgroup.andreasbeersupply.repositories.BeerRepository;
 import com.andreasgroup.andreasbeersupply.web.model.BeerStyleEnum;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -41,7 +40,7 @@ public class LoaderOfBeer implements CommandLineRunner {
                 .builder()
                 .beerName("Alpha Beer")
                 .beerStyle(BeerStyleEnum.GOSE.name())
-                .quantityToBeerProvider(200)
+                .quantityToBrew(200)
                 .upc(BEER_UPC_1)
                 .price(new BigDecimal("20.32"))
                 .minOnHand(12)
@@ -51,7 +50,7 @@ public class LoaderOfBeer implements CommandLineRunner {
                 .builder()
                 .beerName("Heineken")
                 .beerStyle(BeerStyleEnum.SAISON.name())
-                .quantityToBeerProvider(200)
+                .quantityToBrew(200)
                 .upc(BEER_UPC_2)
                 .price(new BigDecimal("30.32"))
                 .minOnHand(12)
@@ -61,7 +60,7 @@ public class LoaderOfBeer implements CommandLineRunner {
                 .builder()
                 .beerName("Fix")
                 .beerStyle(BeerStyleEnum.IPA.name())
-                .quantityToBeerProvider(200)
+                .quantityToBrew(200)
                 .upc(BEER_UPC_3)
                 .price(new BigDecimal("20.32"))
                 .minOnHand(12)

@@ -14,19 +14,19 @@ import java.util.UUID;
 /**
  * Created on 22/Oct/2020 to andreas-beer-supply
  */
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Getter
-@Setter
 @Entity
 public class Beer {
 
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
-    @Type(type = "org.hibernate.type.UUIDCharType")
-    @Column(length = 36, columnDefinition = "varchar", updatable = false, nullable = false)
+    @Type(type="org.hibernate.type.UUIDCharType")
+    @Column(length = 36, columnDefinition = "varchar(36)", updatable = false, nullable = false)
     private UUID id;
 
     @Version
@@ -46,6 +46,7 @@ public class Beer {
     private String upc;
 
     private BigDecimal price;
+
     private Integer minOnHand;
-    private Integer quantityToBeerProvider;
+    private Integer quantityToBrew;
 }

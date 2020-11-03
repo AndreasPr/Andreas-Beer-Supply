@@ -23,6 +23,20 @@ import java.util.UUID;
 @Builder
 public class BeerDto {
 
+    @Null
+    private UUID id;
+
+    @Null
+    private Integer version;
+
+    @Null
+    @JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ssZ", shape=JsonFormat.Shape.STRING)
+    private OffsetDateTime createdDate;
+
+    @Null
+    @JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ssZ", shape=JsonFormat.Shape.STRING)
+    private OffsetDateTime lastModifiedDate;
+
     @NotBlank
     private String beerName;
 
@@ -38,18 +52,4 @@ public class BeerDto {
     private BigDecimal price;
 
     private Integer quantityOnHand;
-
-    @Null
-    private UUID id;
-
-    @Null
-    private Integer version;
-
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy:MM:dd'T'HH:mm:ssZ")
-    @Null
-    private OffsetDateTime createdDate;
-
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy:MM:dd'T'HH:mm:ssZ")
-    @Null
-    private OffsetDateTime lastModifiedDate;
 }
