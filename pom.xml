@@ -19,6 +19,20 @@
             <artifactId>spring-boot-starter-validation</artifactId>
             <version>2.3.4.RELEASE</version>
         </dependency>
+        <!--Artemis dependencies-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-artemis</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.activemq</groupId>-->
+<!--            <artifactId>artemis-server</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.activemq</groupId>-->
+<!--            <artifactId>artemis-jms-server</artifactId>-->
+<!--        </dependency>-->
+        <!--END OF Artemis dependencies-->
         <!--Cache-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

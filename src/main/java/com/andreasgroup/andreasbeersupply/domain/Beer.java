@@ -22,6 +22,8 @@ import java.util.UUID;
 @Entity
 public class Beer {
 
+    //Spring's default naming convention is lower snake case, which means it uses only lower case letters and separates words with underscores
+
     @Id
     @GeneratedValue(generator = "UUID")
     @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
