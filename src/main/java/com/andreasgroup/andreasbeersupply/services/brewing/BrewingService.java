@@ -1,4 +1,4 @@
-package com.andreasgroup.andreasbeersupply.services;
+package com.andreasgroup.andreasbeersupply.services.brewing;
 
 import com.andreasgroup.andreasbeersupply.config.JmsConfig;
 import com.andreasgroup.andreasbeersupply.domain.Beer;
