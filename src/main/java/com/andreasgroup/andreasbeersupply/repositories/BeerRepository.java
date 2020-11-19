@@ -1,7 +1,7 @@
 package com.andreasgroup.andreasbeersupply.repositories;
 
 import com.andreasgroup.andreasbeersupply.domain.Beer;
-import com.andreasgroup.andreasbeersupply.web.model.BeerStyleEnum;
+import com.andreasgroup.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package com.andreasgroup.andreasbeersupply.web.model;
+package com.andreasgroup.brewery.model;
 
 
 import com.fasterxml.jackson.annotation.JsonCreator;

@@ -1,4 +1,4 @@
-package com.andreasgroup.andreasbeersupply.web.model;
+package com.andreasgroup.brewery.model;
 
 /**
  * Created on 20/Oct/2020 to andreas-beer-supply

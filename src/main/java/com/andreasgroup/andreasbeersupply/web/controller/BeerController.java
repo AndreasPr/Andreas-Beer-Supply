@@ -1,9 +1,9 @@
 package com.andreasgroup.andreasbeersupply.web.controller;
 
 import com.andreasgroup.andreasbeersupply.services.BeerService;
-import com.andreasgroup.andreasbeersupply.web.model.BeerDto;
-import com.andreasgroup.andreasbeersupply.web.model.BeerPagedList;
-import com.andreasgroup.andreasbeersupply.web.model.BeerStyleEnum;
+import com.andreasgroup.brewery.model.BeerDto;
+import com.andreasgroup.brewery.model.BeerPagedList;
+import com.andreasgroup.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;

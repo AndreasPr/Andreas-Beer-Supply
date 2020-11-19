@@ -1,7 +1,10 @@
-package com.andreasgroup.andreasbeersupply.events;
+package com.andreasgroup.brewery.model.events;
 
 import com.andreasgroup.brewery.model.BeerDto;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 

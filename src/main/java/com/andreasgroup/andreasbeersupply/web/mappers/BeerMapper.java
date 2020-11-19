@@ -1,7 +1,7 @@
 package com.andreasgroup.andreasbeersupply.web.mappers;
 
 import com.andreasgroup.andreasbeersupply.domain.Beer;
-import com.andreasgroup.andreasbeersupply.web.model.BeerDto;
+import com.andreasgroup.brewery.model.BeerDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

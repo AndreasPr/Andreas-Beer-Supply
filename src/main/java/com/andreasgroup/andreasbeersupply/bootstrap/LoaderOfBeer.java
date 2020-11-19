@@ -2,7 +2,7 @@ package com.andreasgroup.andreasbeersupply.bootstrap;
 
 import com.andreasgroup.andreasbeersupply.domain.Beer;
 import com.andreasgroup.andreasbeersupply.repositories.BeerRepository;
-import com.andreasgroup.andreasbeersupply.web.model.BeerStyleEnum;
+import com.andreasgroup.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
